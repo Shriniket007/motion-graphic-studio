@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left {
+    height: 100vh;
+    flex-direction: column;
+    background: url("images/898616.jpg") center center/cover;
+    width: 60%;
+    margin: 20px;
+}
+
+.right {
+    width: 30%;
+    margin: 20px;
+
+
+
+}
+
+.right h1 {
+    color: rgb(150, 190, 255);
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.right p {
+    color: white;
+    text-align: left;
+
+}
+
+.second {
+    color: rgb(150, 190, 255);
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(150, 190, 255);
+
+}
+
+h1,
+h5 {
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+
+.s1 {
+    margin: 10px;
+    width: 30%;
+
+}
+
+.s2 {
+    margin: 10px;
+    width: 30%;
+}
+
+.s3 {
+    margin: 10px;
+    width: 30%;
+}
+
+.vl {
+    background-color: rgba(255, 255, 255, 0.514);
+    height: 250px;
+    width: 2px;
+
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("images/898616.jpg") center center/cover;
+    
+}
+.third h1{
+    color: white;
+    background-color: red;
+    padding: 139px 65px;
+    border-radius: 100%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.right a{
+    padding-top: 20px;
+    color: white;
+}
